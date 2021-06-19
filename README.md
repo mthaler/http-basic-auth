@@ -1,8 +1,15 @@
 # http-basic-auth
 
-Example code showing how to implement HTTP basic auth in Go
+The simplest form of web authentication is HTTP basic authentication. The request contains a header field in the form of Authorization: Basic <credentials> where credentials is the Base64 encoding of ID and password joined by a single colon :, e.g. `Authorisation: Basic dGVzdDpzZWNyZXQ=`
 
-##
+## Server
+    
+The server will check if the `Authorization` header field is present and if the value is a valid username / password combination.
+
+### Examples
+ 
+
+#### Missing `Authorization` header
 
 ```bash
 $ http http://localhost:8080
