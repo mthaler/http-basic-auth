@@ -8,6 +8,7 @@ The server will check if the `Authorization` header field is present and if the 
 
 ### Examples
  
+The [httpie](https://httpie.io/) is a user-friendly HTTP client that can be used to test the API:
 
 #### Missing `Authorization` header
 
