@@ -25,3 +25,20 @@ Www-Authenticate: Basic realm="Give username and password"
 }
 
 ```
+
+#### Valid `Authorization` header
+       
+```bash
+$ http http://localhost:8080 "Authorization:Basic dGVzdDpzZWNyZXQ="
+HTTP/1.1 200 OK
+Content-Length: 39
+Content-Type: application/json
+Date: Sat, 19 Jun 2021 13:38:01 GMT
+
+{
+    "message": "welcome to golang world!"
+}
+
+```
+    
+`dGVzdDpzZWNyZXQ=` is the Base64 encoded `test:secret` string.
