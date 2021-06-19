@@ -49,4 +49,4 @@ The client demonstrates how to set the `Authorization` header required for HTTP 
     
 ## Credits
     
-The code is from [How to Implement HTTP Basic Auth in Go](https://blog.umesh.wtf/how-to-implement-http-basic-auth-in-gogolang)
+The code is from [How to Implement HTTP Basic Auth in Go](https://blog.umesh.wtf/how-to-implement-http-basic-auth-in-gogolang).
