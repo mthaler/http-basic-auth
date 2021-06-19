@@ -44,6 +44,8 @@ Date: Sat, 19 Jun 2021 13:38:01 GMT
 `dGVzdDpzZWNyZXQ=` is the Base64 encoded `test:secret` string.
     
 ## Client
+  
+The client demonstrates how to set the `Authorization` header required for HTTP basic authentication.
     
 ## Credits
     
