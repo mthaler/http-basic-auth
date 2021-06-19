@@ -42,3 +42,9 @@ Date: Sat, 19 Jun 2021 13:38:01 GMT
 ```
     
 `dGVzdDpzZWNyZXQ=` is the Base64 encoded `test:secret` string.
+    
+## Client
+    
+## Credits
+    
+The code is from [How to Implement HTTP Basic Auth in Go](https://blog.umesh.wtf/how-to-implement-http-basic-auth-in-gogolang)
